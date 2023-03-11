@@ -33,23 +33,27 @@ const Admit = () => {
         <div className="admitSign">
           <div className="signCandidate">
             <div className="sign"></div>
-            <span>Signature of applicant</span>
+            <span className="signText">Signature of applicant</span>
           </div>
           <div className="signInvigilator">
             {" "}
             <div className="sign"></div>
-            <span>Invigilator</span>
+            <span className="signText">Invigilator</span>
           </div>
           <div className="signAuth">
             {" "}
             <div className="sign"></div>
-            <span>Auth. Signatory</span>
-            <h4>(Manas Edu. & Research Centre)</h4>
+            <span className="signText">
+              Auth. Signatory <h4>(Manas Edu. & Research Centre)</h4>
+            </span>
           </div>
         </div>
       </div>
       <div className="admitRight">
-        <div className="admitClass"></div>
+        <div className="admitClass">
+          <h3>Class</h3>
+          <span>XI</span>
+        </div>
         <div className="admitPhoto"></div>
       </div>
     </div>
