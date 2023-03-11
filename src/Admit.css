@@ -89,9 +89,10 @@
   width: 100%;
   text-align: center;
 }
-.admitClass>h3{
+.admitClass > h3 {
   font-size: 30px;
 }
-.admitClass>span{
+.admitClass > span {
   font-size: 60px;
+  border-bottom: 2px solid black;
 }
