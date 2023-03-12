@@ -1,6 +1,6 @@
 .admitContainer {
+  height: max-content;
   margin: 5%;
-  max-height: 60vh;
   padding: 2%;
   border: 2px solid black;
   display: flex;
@@ -46,31 +46,16 @@
   border-bottom: 2px solid black;
 }
 .admitSign {
-  height: 30%;
   display: flex;
   flex-direction: row;
-  gap: 3%;
+  gap: 5%;
+  height: 20%;
 }
-.sign {
-  height: 10vh;
-  width: 100%;
-  /* background-color: aqua; */
-}
-.signCandidate,
-.signInvigilator,
-.signAuth {
-  position: relative;
-  width: 30%;
-  /* height: 50%; */
+.signBox {
+  width: 40%;
   text-align: center;
-  line-height: 0.5;
   display: flex;
-  flex-direction: column;
-}
-.signText {
-  text-align: center;
-  position: absolute;
-  bottom: 1vh;
+  align-items: flex-end;
 }
 .admitRight {
   width: 15%;
